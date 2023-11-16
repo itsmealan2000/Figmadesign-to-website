@@ -1,0 +1,233 @@
+/* fonts */
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playball', cursive;
+font-family: 'Roboto Slab', serif; */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', serif;
+}
+.vl {
+    border-left: 6px solid green;
+    /* height: 2%; */
+  }
+@media (max-width: 768px) {
+    #homeiphone-img{
+        padding-bottom: 20%;
+    }
+}
+
+@media (max-width: 426px) {
+    #homeiphone-img{
+        width: 150% !important;
+        padding-bottom: 50%;
+    }
+}
+@media (max-width: 320px) {
+    #homeiphone-img{
+        width: 150% !important;
+        padding-bottom: 50%;
+    }
+    .bigbanner{
+      width: 320px;
+    }
+    .widesquare{
+      width: 200px;
+    }
+}
+#homeiphone{
+    padding-bottom: 6%;
+}
+
+.searchBar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2%;
+
+  }
+  
+  #searchQueryInput {
+    width: 100%;
+    height: 2.8rem;
+    background: #f5f5f5;
+    outline: 2px solid;
+    border: none;
+    border-radius: 1.625rem;
+    padding: 0 3.5rem 0 1.5rem;
+    font-size: 1rem;
+  }
+  
+  #searchQuerySubmit {
+    width: 3.5rem;
+    height: 2.8rem;
+    margin-left: -3.5rem;
+    background: none;
+    border: none;
+    outline: none;
+  }
+  
+  #searchQuerySubmit:hover {
+    cursor: pointer;
+  }
+
+  .catergory{
+    display: flex;
+width: 1440px;
+padding: 80px 160px;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+  }
+  .catergory-top{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  }
+  .Category{
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: space-evenly;
+  gap: 16px 32px;
+  align-self: stretch;
+  flex-wrap: wrap;
+  }
+  .cat-items{
+    display: flex;
+  width: 160px;
+  height: 128px;
+  min-width: 135px;
+  padding: 24px 52px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid;
+  border-radius: 15px;
+  background-color: #EDEDED;
+  }
+  .productsheading{
+    display: flex;
+align-items: center;
+gap: 32px;
+align-self: stretch;
+  }
+  .fot{
+    display: flex;
+  width: 1439px;
+  padding: 104px 160px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  }
+.smallbanner{
+  display: flex;
+  align-items: flex-start;
+}
+.leftbanner{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+
+flex: 1 0 0;
+}
+.widesquare{
+  display: flex;
+  width: 30%;
+height: 328px;
+padding: 0px 20% 0px 70%;
+justify-content: flex-end;
+position: relative;
+align-items: center;
+align-self: stretch;
+}
+.square{
+display: flex;
+height: 272px;
+align-items: flex-start;
+align-self: stretch;
+
+}
+.bigbanner{
+  display: flex;
+height: 600px;
+
+align-items: center;
+gap: 1px;
+flex: 1 0 0;
+background-color:#EDEDED;
+padding-left: 5px;
+}
+.ps5{
+  width: 513px;
+height: 343px;
+position: absolute;
+left: -300px;
+bottom: -15px;
+}
+.sqrbnr1{
+  display: flex;
+  width: max-content;
+padding: 0px 48px 0px 156px;
+justify-content: flex-end;
+align-items: center;
+flex: 1 0 0;
+align-self: stretch;
+position: relative;
+background-color: #EDEDED;
+z-index: 9;
+}
+.sqrbnr1content{
+  display: flex;
+width: 160px;
+height: 143px;
+max-width: 168px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 8px;
+z-index: 8;
+}
+.sqrbnr2{
+  display: flex;
+padding: 0px 48px 0px 156px;
+justify-content: flex-end;
+align-items: center;
+flex: 1 0 0;
+align-self: stretch;
+position: relative;
+background-color: #353535;
+}
+.vispro{
+  width: 312px;
+height: 190px;
+position: absolute;
+left: -176px;
+top: 41px;
+}
+.aplleemax{
+position: absolute;
+left: -125px;
+z-index: 9;
+}
+.mec{
+  display: flex;
+width: 80%;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
+.bigbannercontent{
+  display: flex;
+max-width: 360px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+flex: 1 0 0;
+}

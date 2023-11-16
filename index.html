@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website-figma-AVJ</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;500&family=Playball&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- animate.style -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+  />
+  <!-- aos  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+  <body>
+    <!-- navbar -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100" style="z-index: 10;">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-5" href="#">
+            <img src="assets/Logo Vector.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+            <form class="d-flex ms-auto w-50" role="search" >
+              <div class="searchBar">
+                <input id="searchQueryInput" type="text" name="searchQueryInput" placeholder="Search" value="" />
+                <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
+                  <svg style="width:24px;height:24px" viewBox="0 0 24 24"><path fill="#666666" d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" />
+                  </svg>
+                </button>
+              </div>
+              </form>
+              <ul class="navbar-nav justify-content-center ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true"><i class="bi bi-suit-heart"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true"><i class="bi bi-cart"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true"><i class="bi bi-person"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- sub nav -->
+      <div class="text-light container-fluid d-flex justify-content-evenly position-absolute w-100 z-11 mt-2 " data-aos="fade-down"  data-aos-delay="800"  style="background-color: rgb(45, 45, 45); top: 8%;">
+        <div class="d-flex flex-wrap justify-content-evenly">
+          <div class="nav-items m-3"> <i class="bi bi-phone"></i> Phones</div>
+          <div class="nav-items m-3"><i class="bi bi-laptop"></i> Computers</div>
+          <div class="nav-items m-3"><i class="bi bi-watch"></i> Smart Watches</div>
+          <div class="nav-items m-3"><i class="bi bi-camera"></i> Camera</div>
+          <div class="nav-items m-3"><i class="bi bi-headphones"></i> Headphone</div>
+          <div class="nav-items m-3"><i class="bi bi-controller"></i> Gaming</div>
+        </div >
+      </div>
+      <main>
+        <!-- homepage -->
+        <section class="container-fluid" style="background-color: black; height: 100vh;">
+          <h1 id="homeiphone" class="position-absolute text-light text-center top-50 start-50 translate-middle">iPhone 15 Pro
+            <br>
+            Titanium. So strong. So light. So Pro.
+            <br>
+            <button class="btn btn-outline-info text-light">Buy Now.</button>
+          </h1>
+        <img id="homeiphone-img"  class="img-fluid w-50 mw-50 position-fixed z-9 top-100 start-50 translate-middle" src="assets/iphone 15 home.png" alt="">
+        </section>
+        <!-- afterhomepage -->
+        <section class="container-fluid position-absolute z-3" style="background-color: white; height: max-content; width: 100%;">
+            <section>
+              <div class="smallbanner d-flex flex-wrap">
+                <div class="leftbanner d-flex ">
+                    <div class="widesquare ">
+                        <img src="assets/ps5.png" class="ps5" alt="">
+                        <div class="procontent">
+                          <h3>Playstation 5</h3>
+                          <p>Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will redefine your PlayStation experience</p>
+                        </div>
+                    </div>
+                    <div class="square d-flex flex-wrap ">
+                      <div class="sqrbnr1 ">
+                        <img src="assets/airmax.png" class="aplleemax w-50" alt="">
+                        <div class="sqrbnr1content">
+                          <h3>Apple 
+                            AirPods Max</h3>
+                            <p>Computational audio. Listen, it's powerful</p>
+                          </div>
+                      </div>
+                      <div class="sqrbnr2">
+                        <img src="assets/visionpro.png" class="vispro" alt="" style="transform: scaleX(-1);">
+                        <div class="sqrbnr2content text-light">
+                          <h3 >Apple 
+                            Vision Pro</h3>
+                            <p>An immersive way to experience entertainment</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="bigbanner">
+                    <div class="bigbannercontent">
+                      <h3>macbook Pro</h3>
+                    <p>The new 15‑inch MacBook Air makes room for more of what you love with a spacious Liquid Retina display.</p>
+                  </div>
+                    <img src="assets/macbook.png" class="mec" alt="">
+                </div>
+              </div>
+            </section>
+        <!-- catergory -->
+        <section class="container-fluid catergory">
+          <div class="catergory-top container"> 
+            <h5>Browse By Category</h5>
+            <div>
+              <i class="bi bi-chevron-left"></i>         
+              <i class="bi bi-chevron-right"></i>
+            </div>
+          </div>
+          <div class="Category container-fluid">
+            <div class="cat-items m-3"> <i class="bi bi-phone"></i> Phones</div>
+            <div class="cat-items m-3"><i class="bi bi-laptop"></i> Computers</div>
+            <div class="cat-items m-3"><i class="bi bi-watch"></i> SmartWatches</div>
+            <div class="cat-items m-3"><i class="bi bi-camera"></i> Camera</div>
+            <div class="cat-items m-3"><i class="bi bi-headphones"></i> Headphone</div>
+            <div class="cat-items m-3"><i class="bi bi-controller"></i> Gaming</div>
+          </div>
+        </section>
+        <hr>
+        <!-- products -->
+        <section class="container">
+            <div class="productsheading">
+              <h5>New arrival</h5>
+              <h6>Best Selling</h6>
+              <h6>Featured products</h6>
+            </div>
+            <div class="mt-5">
+              <div class="row">
+                <div class="col-lg-3">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-top ms-auto me-2"><i class="bi bi-heart-fill" style="color: red;"></i></div>
+                    <img src="assets/products/iphone 14.png" class="card-img-top  ms-4 w-75" alt="...">
+                    <div class="card-body d-flex justify-content-center flex-column">
+                      <h5 class="card-title text-center">iphone 14</h5>
+                      <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed.</p>
+                      <a href="#" class="btn btn-primary ">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-top ms-auto me-2"><i class="bi bi-heart"></i></div>
+                    <img src="assets/products/samsung fold.png" class="card-img-top  ms-4 w-75" alt="...">
+                    <div class="card-body d-flex justify-content-center flex-column">
+                      <h5 class="card-title text-center">Card title</h5>
+                      <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-top ms-auto me-2"><i class="bi bi-heart"></i></div>
+                    <img src="assets/products/ipad.png" class="card-img-top  ms-4 w-75" alt="...">
+                    <div class="card-body d-flex justify-content-center flex-column">
+                      <h5 class="card-title text-center">Card title</h5>
+                      <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-top ms-auto me-2"><i class="bi bi-heart"></i></div>
+                    <img src="assets/products/iwatch.png" class="card-img-top  ms-4 w-75" alt="...">
+                    <div class="card-body d-flex justify-content-center flex-column">
+                      <h5 class="card-title text-center">Card title</h5>
+                      <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-5">
+                <div class="col-lg-3">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-top ms-auto me-2"><i class="bi bi-heart"></i></div>
+                    <img src="assets/products/samsung.png" class="card-img-top  ms-4 w-75" alt="...">
+                    <div class="card-body d-flex justify-content-center flex-column">
+                      <h5 class="card-title text-center">Card title</h5>
+                      <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary ">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-top ms-auto me-2"><i class="bi bi-heart"></i></div>
+                    <img src="assets/products/samsung buds.png" class="card-img-top  ms-4 w-75" alt="...">
+                    <div class="card-body d-flex justify-content-center flex-column">
+                      <h5 class="card-title text-center">Card title</h5>
+                      <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-top ms-auto me-2"><i class="bi bi-heart"></i></div>
+                    <img src="assets/airmax.png" class="card-img-top  ms-5 " style="width: 67%;" alt="...">
+                    <div class="card-body d-flex justify-content-center flex-column">
+                      <h5 class="card-title text-center">Card title</h5>
+                      <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-top ms-auto me-2"><i class="bi bi-heart"></i></div>
+                    <img src="assets/products/camera.png" class="card-img-top  ms-4 w-75" alt="...">
+                    <div class="card-body d-flex justify-content-center flex-column">
+                      <h5 class="card-title text-center">Card title</h5>
+                      <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <footer class="container-fluid pb-5" style="background-color: black;">
+          <div class="row">
+            <div class="col-4" >
+              <img src="assets/Logo Vector.png" class="p-5" style="filter: invert(1);" alt="">
+              <p class="mt-5 text-light p-5">
+                We are a residential interior design firm located in Portland. Our boutique-studio offers more than
+              </p>
+              <div class="d-flex">
+                <div class="ms-5"><i class="bi bi-facebook" style="color: aliceblue;"></i></div>
+                <div class="ms-5"><i class="bi bi-instagram" style="color: aliceblue;"></i></div>
+                <div class="ms-5"><i class="bi bi-linkedin" style="color: aliceblue;"></i></div>
+                <div class="ms-5"><i class="bi bi-tiktok" style="color: aliceblue;"></i></div>
+              </div>
+            </div>
+            <div class="col-4 text-light" >
+              <h3 class="text-center pt-5 mt-5">About Us</h3>
+              <ul class="list-group list-unstyled">
+                <li><a href="" class="text-decoration-none fw-bold fs-6 text-light">Home</a></li>
+                <li><a href="" class="text-decoration-none fw-bold fs-6 text-light">Blog</a></li>
+                </ul>
+            </div>
+            <div class="col-4" >
+              <h3 class="text-center pt-5 mt-5 text-light">Contact Us</h3>
+              <hr>
+              <div class="d-flex flex-column">
+                <a href="#" class="text-light">About Us</a>
+                <a href="#" class="text-light">Contact Us</a>
+                <a href="#" class="text-light">Blog</a>
+              </div>
+            </div>
+          </div>
+      </footer>
+        
+      </section>
+      </main>
+      
+  </body>
+  <!-- bs script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <!-- gsap -->
+  <script type="module" src="js/gsap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/Flip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/Observer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/Draggable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/MotionPathPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/EaselPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/PixiPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+    <!-- RoughEase, ExpoScaleEase and SlowMo are all included in the EasePack file -->    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/EasePack.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/CustomEase.min.js"></script>
+    <!-- lenis -->
+    <!-- <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script> 
+    <script type="module" src="js/lenis.js"></script> -->
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+  </html>
